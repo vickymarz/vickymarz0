@@ -1,5 +1,5 @@
 body{
-    width: 100%; max-width: 1000px; padding: 0px; margin-left: auto; margin-right: auto; min-height: 800px; 
+    width: 100%; max-width: 1000px; padding: 0px; margin-left: auto; margin-right: auto; min-height: 900px; 
     background: linear-gradient(173deg, #763bee 80%,#ffffff 20% ); background-repeat: repeat-x;
 }
 header p{
@@ -58,7 +58,7 @@ select{
     content: ""; clear: both; display: table; box-sizing: border-box;
 }
 .box{
- max-width:400px; padding: 0px 50px; float: left;
+ max-width:400px; padding: 0px 40px; float: left;
 }
 .container{
     padding-bottom: 40px;
