@@ -112,7 +112,7 @@ border-color: white;
     }
     
     .form_section{
-        position: relative; left: 5%;
+        position: relative; left: 2%;
     }
 }
 @media screen and (max-width:750px){
