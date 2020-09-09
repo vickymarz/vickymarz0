@@ -1,46 +1,57 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 100;
+}
 body{
-    width: 100%; max-width: 1000px; padding: 0px; margin-left: auto; margin-right: auto; min-height: 900px; 
-    background: linear-gradient(173deg, #763bee 80%,#ffffff 20% ); background-repeat: repeat-x;
+    width: 100%; max-width: 1000px; padding: 0px; margin-left: auto; margin-right: auto; min-height: 500px; background-repeat: repeat-x; 
+    background-color: rgb(159, 147, 240);
 }
-header p{
-    font-size: 2rem; color: #ffffff;  position: relative; clear: left; margin-left: 10%;
+.landing{
+    color: #ffffff; text-decoration: none; font-size: 1.1rem; position: relative; top: 25px; left: 30px;
 }
+
 /* navigation and icon styling starts here */
-.top_nav{
-    text-align: center;
+.container{
+    text-align: right; position: relative; top: -30px;
 }
 nav ul li a{
-    font-size: 1.3rem; color: white; text-decoration: none; text-align: center;
+     color: white; text-decoration: none; text-align: center; font-size: 1.1rem; 
 }
 nav ul li a:link{
-    color: white;
+    color: #ffffff;
 }
 nav ul li a:hover{
-    color: blue
+    color: #0000ff
 }
 nav ul li{
-    display: inline-block; padding: 20px;
+    display: inline-block; padding: 15px; 
 }
 .top_nav .icon_menu .icon{
-    display: none; padding-right: 20px; cursor: pointer; 
+        position: absolute; top: 0; right: 5%; padding: 3rem 0; cursor: pointer; transition: all 0.5s; display: none;
+}
+.icon i:last-child{
+    position: fixed; top: 8%; right: 5%; display: block;  transition: all 0.5s;
 }
 .border{
-    border: 1px solid black; padding: 10px; border-radius: 5px;
+    border: 1px solid #f50808; padding: 5px; border-radius: 5px;
 }
 /* navigation styling ends here */
+
 /* form section starts here */
-.form_section p{
-    font-size: 2rem; font-weight: lighter; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 0px 20px;
+.right_section{
+    background-color: #ffffff; color: #2f2d2d; box-shadow: 5px 5px 15px rgba(19, 18, 18, 0.5); border-radius: 0.5rem; width: 30%; 
+    margin: 9rem auto;
 }
-.form_section{
-    max-width: 500px; background-color: #ffffff; padding: 10px 5px; text-align: center; margin: auto; box-shadow:5px 5px 5px 5px #ffffff81, 5px 5px 5px 5px #000000 ; 
-    border-radius: 5px ;
+.right_section h2{
+       text-align: center; font-weight: 100; margin-top: 2rem; font-size: 1.7rem;
+}
+.form_section input, .form_section select{
+    width: 90%; background-color: rgba(200, 197, 197, 0.3); border-radius: 0.2rem; padding: 10px 10px; margin-bottom: 1rem; border: none;
+}
+.form_section select{
+    width: 98%;
 }
 .form_section form{
-    text-align: center; padding: 0px 20px 30px 20px; line-height: 3;
-}
-.form_section input{
-    line-height: 2.5; width: 90%; border:none;  border-radius: 3px; background-color: #e2dddd; padding: 0px 10px;
+    text-align: center; padding: 0px 20px 30px 20px;
 }
 .form_section input:focus{
     background-color: #000000; color: white;
@@ -49,82 +60,91 @@ select{
     width: 100%; padding: 7px; ; background-color: #e2dddd; border: none; border-radius: 3px;
 }
 #submit{
-    text-align: center; width: 70%; padding: 0px; border-radius: 20px; background-color: blue; color: white; 
-    box-shadow: 2px 4px 5px rgb(87, 87, 231);
+    text-align: center; width: 90%; padding: 8px; border-radius: 20px; background-color: blue; border: none; color: white; box-shadow: 2px 4px 5px rgb(87, 87, 231);
 }
 /* form section ends here */
+
 /* main content styling */
 .clearfix{
-    content: ""; clear: both; display: table; box-sizing: border-box;
+    display: flex; margin: auto;
 }
-.box{
- max-width:400px; padding: 0px 40px; float: left;
+section{
+    margin: 6rem 0;
 }
-.container{
-    padding-bottom: 40px;
+
+.left_section{
+    width: 40%; margin-left: 3%; margin-right: 10%;
 }
-.container h1{
-    color: white; font-weight: lighter; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 2rem; padding-left: 20px;
-     padding-right: 40px;
+.left_section h2{
+    color: white; font-size: 4rem; padding-right: 40px; font-size: 2.5rem; font-weight: 100;
 }
-.container p{
-    color: white; font-size: 1.2rem; padding-left: 20px; padding-right: 40px;
+.left_section p{
+    color: white; font-size: 1.2rem;
 }
-p a{
-    color: #bebcbc; text-decoration: none;
+.left_section p a{
+    color: #bebcbc; text-decoration: none; transition: color 0.5s;
 }
-p a:hover{
-    color: #6a5acd;
+.left_section p a:hover{
+    color: #4a5acd;
 }
-.pricing{
+.pricing_btn{
     padding: 5px 20px; background-color: #04bb04; border-radius: 20px; color: #ffffff; box-shadow: 2px 2px 8px #ffffff; border: none; 
-    margin-left: 5%; cursor: pointer;
+    cursor: pointer;
 }
-/* hidden side bar */
-.hidden{
-    position: fixed; top: 0; left: 0; z-index: 1; width: 20%;  min-height: 1vh; margin-top: -17px;
-}
-.hidden ul{
-    background-color: #000; color: white; padding:0px 10px;
-}
-.hidden ul li{
-    list-style: none; display: block; justify-content: space-around; border-bottom: 1px solid #4574d4;
-}
-.hidden ul li:hover{
-border-color: white;
-}
-.hidden ul li a{
-    font-size: 1rem; text-transform: uppercase; transition: 0.6s;
-}
-.hidden ul li a:hover{
-    color: #4574d4;
-}
-.hidden .border{
-    margin-left: -1rem;
-}
+
 /* media querries */
-@media screen and (max-width:850px){
+@media screen and (max-width:650px){
     .top_nav .icon_menu .icon{
-        display: block; float: right;
+        display: block;
     }
-    .top_nav nav{
+    .icon i:last-child{
         display: none;
     }
-    
+    .top_nav nav{
+        position: fixed; top: 0; left: 0; z-index: 1; width: 80%;  min-height: 100vh; background-color: #000; color: white; text-align: left;
+        padding-right: 10px; margin-left: -20px; display: none;
+    }
+    .top_nav nav ul li{
+        list-style: none; border-bottom: 1px solid #4574d4; transition: 0.6s; display: block; padding-left: 0px; margin-bottom: 2rem; padding-bottom: 5px;
+    }
+    .top_nav nav ul li:hover{
+        border-bottom: 1px solid #ffffff;
+    }
+    .top_nav nav ul li a{
+        font-size: 0.9rem; text-transform: uppercase; transition: 0.6s; display: block; text-align: left;
+    }
+    .top_nav nav ul li a:hover{
+        color: #4574d4;
+    }
+    .border{
+        border: none; padding: 0px;
+    }
     .form_section{
-        position: relative; left: 1%;
+        position: relative; left: 2%;
     }
-}
-@media screen and (max-width:750px){
-    .top_nav .responsive{
-        position: relative;
+    .clearfix{
+        display: block; content: ""; clear: both; display: both;
     }
-    .top_nav .responsive .icon{
-        position: absolute; right: 0; top: 0;
+    .left_section, .right_section{
+        width: 50%; margin-left: auto; margin-right: auto; 
     }
-    .top_nav .responsive a{
-        float: none;
-        display: block;
-        text-align: left;
+    .right_section{
+        margin-top: auto;
+    }
+    .right_section h2{
+        padding-top: 20px; padding: 20px 10px 0 10px;
+    }
+    footer{
+    background-color: #ffffff; padding: 5rem 0px; position: relative; bottom: -10px;
+    clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
+    }
+    .open .fa-times{
+    display: block !important; 
+    }
+   .open .fa-bars{
+    display: none !important;
+    }
+    .open nav{
+        display: block !important;
     }
 }
