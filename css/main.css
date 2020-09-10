@@ -3,7 +3,7 @@ html{
 }
 body{
     width: 100%; max-width: 1000px; padding: 0px; margin-left: auto; margin-right: auto; min-height: 500px; background-repeat: repeat-x; 
-    background-color: #9b8afa;
+    background-color: #a59bdf;
 }
 .landing{
     color: #ffffff; text-decoration: none; font-size: 1.15rem; position: relative; top: 25px; left: 30px;
@@ -60,7 +60,7 @@ select{
     width: 100%; padding: 7px; ; background-color: #e2dddd; border: none; border-radius: 3px;
 }
 #submit{
-    text-align: center; width: 90%; padding: 8px; border-radius: 20px; background-color: blue; border: none; color: white; box-shadow: 2px 4px 5px #000000;
+    text-align: center; width: 90%; padding: 8px; border-radius: 20px; background-color: blue; border: none; color: white; box-shadow: 2px 4px 15px #000000e8;
 }
 /* form section ends here */
 
