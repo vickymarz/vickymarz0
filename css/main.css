@@ -13,7 +13,7 @@ body{
 
 /* navigation and icon styling starts here */
 .container{
-    text-align: right; position: relative; top: -30px;
+    text-align: right; position: relative; top: -25px;
 }
 nav ul li a{
      color: white; text-decoration: none; text-align: center; font-size: 1.1rem; 
