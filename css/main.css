@@ -3,7 +3,7 @@ html{
 }
 body{
     width: 100%; max-width: 1000px; padding: 0px; margin-left: auto; margin-right: auto; min-height: 500px; background-repeat: repeat-x; 
-    background-color: rgb(159, 147, 240);
+    background-color: #9b8afa;
 }
 .landing{
     color: #ffffff; text-decoration: none; font-size: 1.15rem; position: relative; top: 25px; left: 30px;
