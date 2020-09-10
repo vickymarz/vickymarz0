@@ -60,7 +60,7 @@ select{
     width: 100%; padding: 7px; ; background-color: #e2dddd; border: none; border-radius: 3px;
 }
 #submit{
-    text-align: center; width: 90%; padding: 8px; border-radius: 20px; background-color: blue; border: none; color: white; box-shadow: 2px 4px 5px rgb(87, 87, 231);
+    text-align: center; width: 90%; padding: 8px; border-radius: 20px; background-color: blue; border: none; color: white; box-shadow: 2px 4px 5px #000000;
 }
 /* form section ends here */
 
@@ -88,7 +88,7 @@ section{
     color: #4a5acd;
 }
 .pricing_btn{
-    padding: 5px 20px; background-color: #04bb04; border-radius: 20px; color: #ffffff; box-shadow: 2px 2px 8px #ffffff; border: none; 
+    padding: 5px 20px; background-color: #04bb04; border-radius: 20px; color: #ffffff; box-shadow: 2px 2px 8px #000000; border: none; 
     cursor: pointer;
 }
 
@@ -105,13 +105,13 @@ section{
         padding-right: 10px; margin-left: -20px; display: none;
     }
     .top_nav nav ul li{
-        list-style: none; border-bottom: 1px solid #4574d4; transition: 0.6s; display: block; padding-left: 0px; margin-bottom: 2rem; padding-bottom: 5px;
+        list-style: none; border-bottom: 1px solid #4574d4; transition: 0.6s; display: block; padding-left: 0px; margin-bottom: 2.5rem; padding-bottom: 5px;
     }
     .top_nav nav ul li:hover{
         border-bottom: 1px solid #ffffff;
     }
     .top_nav nav ul li a{
-        font-size: 0.9rem; text-transform: uppercase; transition: 0.6s; display: block; text-align: left;
+        font-size: 1.1rem; text-transform: uppercase; transition: 0.6s; display: block; text-align: left;
     }
     .top_nav nav ul li a:hover{
         color: #4574d4;
