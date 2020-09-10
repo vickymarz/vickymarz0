@@ -2,9 +2,11 @@ html{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 100;
 }
 body{
-    width: 100%; max-width: 1000px; padding: 0px; margin-left: auto; margin-right: auto; min-height: 500px; background-repeat: repeat-x; 
-    background-color: #9c96f5;
+    width: 100%; height: 100%; margin: 0px; background-color: #9c96f5; background-repeat: repeat-x;
 }
+.entire_body{
+    min-height: 100vh; max-width: 1000px; margin-left: auto; margin-right: auto; 
+    
 .landing{
     color: #ffffff; text-decoration: none; font-size: 1.15rem; position: relative; top: 25px; left: 30px;
 }
@@ -32,7 +34,7 @@ nav ul li{
     position: fixed; top: 8%; right: 5%; display: block;  transition: all 0.5s;
 }
 .border{
-    border: 1px solid #f50808; padding: 5px; border-radius: 5px;
+    border: 1px solid #ffffff; padding: 5px; border-radius: 5px;
 }
 /* navigation styling ends here */
 
@@ -82,7 +84,7 @@ section{
     color: white; font-size: 1.2rem;
 }
 .left_section p a{
-    color: #757070; text-decoration: none; transition: color 0.5s;
+    color: #413f3f; text-decoration: none; transition: color 0.5s;
 }
 .left_section p a:hover{
     color: #4a5acd;
@@ -90,6 +92,10 @@ section{
 .pricing_btn{
     padding: 8px 20px; background-color: #04bb04; border-radius: 20px; color: #ffffff; box-shadow: 2px 2px 8px #000000ca; border: none; 
     cursor: pointer;
+}
+footer{
+    background-color: #ffffff; padding: 3rem 0px; position: relative; bottom: -10px;
+    clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
 }
 
 /* media querries */
