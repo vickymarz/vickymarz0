@@ -34,7 +34,7 @@ nav ul li{
     position: fixed; top: 8%; right: 5%; display: block;  transition: all 0.5s;
 }
 .border{
-    border: 1px solid #ffffff; padding: 5px; border-radius: 5px;
+    border: 1px solid #ffffff; padding: 1px; border-radius: 5px;
 }
 /* navigation styling ends here */
 
