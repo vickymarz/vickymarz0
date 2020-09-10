@@ -3,7 +3,7 @@ html{
 }
 body{
     width: 100%; max-width: 1000px; padding: 0px; margin-left: auto; margin-right: auto; min-height: 500px; background-repeat: repeat-x; 
-    background-color: #a59bdf;
+    background-color: #8880fb;
 }
 .landing{
     color: #ffffff; text-decoration: none; font-size: 1.15rem; position: relative; top: 25px; left: 30px;
@@ -60,7 +60,7 @@ select{
     width: 100%; padding: 7px; ; background-color: #e2dddd; border: none; border-radius: 3px;
 }
 #submit{
-    text-align: center; width: 90%; padding: 8px; border-radius: 20px; background-color: blue; border: none; color: white; box-shadow: 2px 4px 15px #000000e8;
+    text-align: center; width: 90%; padding: 8px; border-radius: 20px; background-color: blue; border: none; color: white; box-shadow: 2px 4px 15px #000000a2;
 }
 /* form section ends here */
 
@@ -88,7 +88,7 @@ section{
     color: #4a5acd;
 }
 .pricing_btn{
-    padding: 5px 20px; background-color: #04bb04; border-radius: 20px; color: #ffffff; box-shadow: 2px 2px 8px #000000; border: none; 
+    padding: 8px 20px; background-color: #04bb04; border-radius: 20px; color: #ffffff; box-shadow: 2px 2px 8px #000000; border: none; 
     cursor: pointer;
 }
 
