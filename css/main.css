@@ -82,7 +82,7 @@ section{
     color: white; font-size: 1.2rem;
 }
 .left_section p a{
-    color: #bebcbc; text-decoration: none; transition: color 0.5s;
+    color: #757070; text-decoration: none; transition: color 0.5s;
 }
 .left_section p a:hover{
     color: #4a5acd;
