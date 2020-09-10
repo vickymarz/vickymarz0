@@ -88,7 +88,7 @@ section{
     color: #4a5acd;
 }
 .pricing_btn{
-    padding: 8px 20px; background-color: #04bb04; border-radius: 20px; color: #ffffff; box-shadow: 2px 2px 8px #000000; border: none; 
+    padding: 8px 20px; background-color: #04bb04; border-radius: 20px; color: #ffffff; box-shadow: 2px 2px 8px #000000ca; border: none; 
     cursor: pointer;
 }
 
@@ -138,8 +138,8 @@ section{
         padding: 40px 10px 0 10px;
     }
     footer{
-    background-color: #ffffff; padding: 5rem 0px; position: relative; bottom: -10px;
-    clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 100%);
+    background-color: #ffffff; padding: 3rem 0px; position: relative; bottom: -10px;
+    clip-path: polygon(0 60%, 100% 0, 100% 100%, 0 100%);
     }
     .open .fa-times{
     display: block !important; 
