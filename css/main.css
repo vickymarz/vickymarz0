@@ -39,7 +39,7 @@ nav ul li{
 /* form section starts here */
 .right_section{
     background-color: #ffffff; color: #2f2d2d; box-shadow: 5px 5px 15px rgba(19, 18, 18, 0.5); border-radius: 0.5rem; width: 30%; 
-    margin: 9rem auto;
+    margin: 9rem auto 2rem auto;
 }
 .right_section h2{
        text-align: center; font-weight: 100; margin-top: 2rem; font-size: 1.7rem;
@@ -135,7 +135,7 @@ section{
         margin-top: auto;
     }
     .right_section h2{
-        padding-top: 20px; padding: 20px 10px 0 10px;
+        padding: 40px 10px 0 10px;
     }
     footer{
     background-color: #ffffff; padding: 5rem 0px; position: relative; bottom: -10px;
